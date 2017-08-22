@@ -31,7 +31,7 @@ function addEvents(bar){
 		console.log(positionX);
 		if ( positionX >0 && positionX < (this.parentNode.offsetWidth-40) ){
 			this.style.left = positionX +'px';
-			this.innerHTML=Math.round((positionX/this.parentNode.offsetWidth)*100)+'%';
+			//this.innerHTML=Math.round((positionX/this.parentNode.offsetWidth)*100)+'%';
 		}
 	}
 
